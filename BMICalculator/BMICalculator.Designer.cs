@@ -135,7 +135,7 @@
             // 
             // ResultTextBox
             // 
-            this.ResultTextBox.BackColor = System.Drawing.Color.Silver;
+            this.ResultTextBox.BackColor = System.Drawing.Color.Pink;
             this.ResultTextBox.Enabled = false;
             this.ResultTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultTextBox.ForeColor = System.Drawing.Color.Black;
@@ -196,6 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.HotPink;
             this.ClientSize = new System.Drawing.Size(304, 441);
             this.Controls.Add(this.MultilineTextBox);
             this.Controls.Add(this.ButtonTableLayout);
