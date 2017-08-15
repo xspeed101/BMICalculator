@@ -147,13 +147,14 @@
             // 
             // CalculateBMIButton
             // 
+            this.CalculateBMIButton.BackColor = System.Drawing.Color.Pink;
             this.CalculateBMIButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CalculateBMIButton.Location = new System.Drawing.Point(3, 112);
             this.CalculateBMIButton.Name = "CalculateBMIButton";
             this.CalculateBMIButton.Size = new System.Drawing.Size(109, 23);
             this.CalculateBMIButton.TabIndex = 8;
             this.CalculateBMIButton.Text = "Calculate BMI";
-            this.CalculateBMIButton.UseVisualStyleBackColor = true;
+            this.CalculateBMIButton.UseVisualStyleBackColor = false;
             this.CalculateBMIButton.Click += new System.EventHandler(this.CalculateBMIButton_Click);
             // 
             // ResultLabel
@@ -181,13 +182,14 @@
             // 
             // ResetButton
             // 
+            this.ResetButton.BackColor = System.Drawing.Color.Pink;
             this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetButton.Location = new System.Drawing.Point(133, 112);
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(109, 23);
             this.ResetButton.TabIndex = 9;
             this.ResetButton.Text = "Reset";
-            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.UseVisualStyleBackColor = false;
             this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
             // BMICalculator
