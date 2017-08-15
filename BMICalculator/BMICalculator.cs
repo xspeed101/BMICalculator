@@ -21,8 +21,6 @@ namespace BMICalculator
 
         private double _result;
 
-        private string _bmiScale;
-
 
         //PUBLIC PROPERTIES
 
@@ -67,21 +65,6 @@ namespace BMICalculator
             set
             {
                 this._result = value;
-            }
-
-        }
-
-        public string BMIScale
-        {
-
-            get
-            {
-                return this._bmiScale;
-            }
-
-            set
-            {
-                this._bmiScale = value;
             }
 
         }
