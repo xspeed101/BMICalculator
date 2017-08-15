@@ -168,6 +168,12 @@ namespace BMICalculator
             }
         }
 
+        /// <summary>
+        /// This the event handler for the "Reset Button".
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
         private void ResetButton_Click(object sender, EventArgs e)
         {
             MyWeightTextBox.Text = String.Empty;
