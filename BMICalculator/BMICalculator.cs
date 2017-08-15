@@ -167,6 +167,13 @@ namespace BMICalculator
                 e.Handled = true;
             }
         }
-       
+
+        private void ResetButton_Click(object sender, EventArgs e)
+        {
+            MyWeightTextBox.Text = String.Empty;
+            MyHeightTextBox.Text = String.Empty;
+            ResultTextBox.Text = String.Empty;
+            MultilineTextBox.Text = String.Empty;
+        }
     }
 }

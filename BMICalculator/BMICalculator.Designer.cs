@@ -39,6 +39,7 @@
             this.CalculateBMIButton = new System.Windows.Forms.Button();
             this.ResultLabel = new System.Windows.Forms.Label();
             this.MultilineTextBox = new System.Windows.Forms.TextBox();
+            this.ResetButton = new System.Windows.Forms.Button();
             this.ButtonTableLayout.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +57,7 @@
             this.ButtonTableLayout.Controls.Add(this.ResultTextBox, 1, 4);
             this.ButtonTableLayout.Controls.Add(this.CalculateBMIButton, 0, 3);
             this.ButtonTableLayout.Controls.Add(this.ResultLabel, 0, 4);
+            this.ButtonTableLayout.Controls.Add(this.ResetButton, 1, 3);
             this.ButtonTableLayout.Location = new System.Drawing.Point(12, 28);
             this.ButtonTableLayout.Name = "ButtonTableLayout";
             this.ButtonTableLayout.RowCount = 5;
@@ -177,6 +179,17 @@
             this.MultilineTextBox.Size = new System.Drawing.Size(273, 110);
             this.MultilineTextBox.TabIndex = 1;
             // 
+            // ResetButton
+            // 
+            this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.Location = new System.Drawing.Point(133, 112);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(109, 23);
+            this.ResetButton.TabIndex = 9;
+            this.ResetButton.Text = "Reset";
+            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
+            // 
             // BMICalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
@@ -211,6 +224,7 @@
         private System.Windows.Forms.Label ResultLabel;
         private System.Windows.Forms.Button CalculateBMIButton;
         private System.Windows.Forms.TextBox MultilineTextBox;
+        private System.Windows.Forms.Button ResetButton;
     }
 }
 
